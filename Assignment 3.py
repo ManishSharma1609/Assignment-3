@@ -105,5 +105,5 @@ for e in range(5,3):
 h=int(input("Enter Number of Hydrogen atoms:"))
 c=int(input("Enter Number of Carbon atoms:"))
 o=int(input("Enter Number of Oxygen atoms:"))
-total=int(h*1.00794+c*12.0107+o*15.9994)
+total=h*1.00794+c*12.0107+o*15.9994
 print("The total combined molecular weight in grams per mole is",total)
